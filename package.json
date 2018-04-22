@@ -1,0 +1,31 @@
+{
+  "name": "chat2",
+  "version": "1.0.0",
+  "description": "NodeJS chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karpov Pavel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarpovPavel15/chat2.git"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/KarpovPavel15/chat2/issues"
+  },
+  "homepage": "https://github.com/KarpovPavel15/chat2#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "nunjucks": "^3.1.2",
+    "socket.io": "^2.1.0"
+  }
+}
