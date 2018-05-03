@@ -11,7 +11,7 @@ mongoose.Promise = require('bluebird');
 app.get('/',(req,res) =>{
    res.render('index.html',{date:new Date()});
 });
-server.listen(3000,'0.0.0.0',()=>{
+server.listen(3000,'127.0.0.1',()=>{
     console.log("server on");
 });
 nunjucks.configure('./client/views', {

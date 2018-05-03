@@ -17,7 +17,7 @@ module.exports = io => {
                 socket.emit("message", obj);
                 socket.to('all').emit("message", obj);
             });
-        })
+        });
         socket.on('receiveHistory',()=>{
             MessageModel
                 .find({})
@@ -27,7 +27,6 @@ module.exports = io => {
                 .exec((err,messages)=>{
                     if(!err){
                         socket.emit("history", messages);
-                        socket.to('all').emit("history", messages);
                     }
                 })
         })
