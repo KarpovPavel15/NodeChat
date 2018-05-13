@@ -22,11 +22,20 @@
   },
   "homepage": "https://github.com/KarpovPavel15/chat2#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.10",
     "mongoose": "^5.0.15",
     "npm": "^6.0.0",
     "nunjucks": "^3.1.2",
+    "parser": "^0.1.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "socket.io": "^2.1.0"
   }
 }

@@ -10,8 +10,6 @@ module.exports = io => {
                 content: content,
                 username: socket.id
             };
-            //socket.emit("message", obj);
-            //socket.to('all').emit("message", obj);
             MessageModel.create(obj, err => {
                 if(err) return console.error("MessageModel", err);
                 socket.emit("message", obj);
